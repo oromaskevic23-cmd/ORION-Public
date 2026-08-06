@@ -236,3 +236,128 @@ AI Governance
 Engineering Architecture
 
 These public associations improve discoverability while preserving the Public / Private Boundary defined across the IMPERIAL Core ecosystem.
+---
+
+# Architectural Reasoning Lifecycle
+
+ORION documents a structured lifecycle for collaborative engineering reasoning.
+
+The lifecycle is intended to improve consistency, traceability and architectural quality when multiple specialized AI agents participate in solving complex engineering problems.
+
+The public architectural lifecycle consists of the following phases:
+
+1. Mission Understanding
+
+The engineering objective is analyzed and transformed into clearly defined architectural goals.
+
+2. Domain Decomposition
+
+The overall engineering challenge is divided into specialized reasoning domains suitable for collaborative analysis.
+
+3. Specialist Collaboration
+
+Independent specialist agents contribute domain-specific reasoning within governed architectural boundaries.
+
+4. Evidence Collection
+
+Architectural observations, assumptions and conclusions are documented in a structured and reviewable manner.
+
+5. Cross Verification
+
+Independent reasoning is compared, validated and challenged by other participating specialists whenever appropriate.
+
+6. Architectural Consolidation
+
+Compatible conclusions are integrated into one coherent engineering perspective.
+
+7. Executive Coordination
+
+HANTER coordinates the collaborative engineering workflow, ensuring consistency between participating reasoning domains.
+
+8. Final Architectural Review
+
+The resulting architectural position is evaluated against engineering principles, governance constraints and documented evidence before publication.
+
+---
+
+# Public Engineering Philosophy
+
+ORION promotes deliberate engineering rather than uncontrolled automation.
+
+Quality is achieved through:
+
+- specialization;
+- collaboration;
+- architectural discipline;
+- structured verification;
+- engineering governance;
+- transparent documentation;
+- evidence-driven reasoning;
+- continuous improvement.
+
+The objective is not simply to generate answers.
+
+The objective is to develop reliable architectural reasoning suitable for long-term engineering systems.
+
+---
+
+# Relationship with IMPERIAL Core
+
+ORION represents one public architectural component of the broader IMPERIAL Core ecosystem.
+
+Within the public architecture:
+
+Alexander Romaskevich
+
+↓
+
+Founder • Owner • CEO • Chief Systems Architect
+
+↓
+
+IMPERIAL Core
+
+↓
+
+HANTER
+
+Executive AI Coordination Center
+
+↓
+
+ORION
+
+Collective Intelligence Architecture
+
+↓
+
+Collaborative Specialized AI Agents
+
+Each public repository documents one architectural responsibility while remaining part of the unified IMPERIAL Core engineering vision.
+
+---
+
+# Public Research Direction
+
+Current public research areas include:
+
+- Collective Intelligence;
+- Federated AI Collaboration;
+- Engineering Reasoning;
+- Multi-Agent Architecture;
+- AI Governance;
+- Structured Decision Processes;
+- Evidence-Based Engineering;
+- Distributed Problem Solving;
+- Long-Term System Architecture;
+- Responsible Artificial Intelligence.
+
+Future public documentation will continue expanding these research areas while maintaining a strict separation between public architectural knowledge and private engineering implementation.
+
+---
+
+© IMPERIAL Core.
+
+Public Engineering Documentation.
+
+All Rights Reserved.
