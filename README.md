@@ -2133,3 +2133,422 @@ Author of the public ORION architecture.
 Public Engineering Documentation.
 
 All Rights Reserved.
+---
+
+# Conflict Resolution and Collective Truth
+
+ORION treats disagreement between specialized AI agents as a normal and valuable part of collective reasoning.
+
+The architecture does not assume that intelligent agents should immediately converge on one answer.
+
+Different specialists may:
+
+- use different evidence;
+- apply different methods;
+- identify different risks;
+- reach competing conclusions;
+- assign different confidence levels;
+- expose assumptions that other agents missed.
+
+ORION therefore treats disagreement as structured information that should be examined before final synthesis.
+
+---
+
+# Conflict Is a Reasoning Signal
+
+```text
+Independent Agent A
+        │
+        ├── Conclusion A
+        │
+Independent Agent B
+        │
+        ├── Conclusion B
+        │
+Independent Agent C
+        │
+        └── Conclusion C
+                │
+                ▼
+        Conflict Detection
+                │
+                ▼
+      Evidence Comparison
+                │
+                ▼
+      Assumption Analysis
+                │
+                ▼
+      Additional Verification
+                │
+                ▼
+       Bounded Resolution
+```
+
+Conflicting conclusions should not be silently averaged or hidden.
+
+They should be analyzed.
+
+---
+
+# Types of Collective Conflict
+
+ORION may conceptually distinguish several forms of disagreement.
+
+## Evidence Conflict
+
+Agents rely on different or incompatible evidence.
+
+```text
+Evidence Set A
+      │
+      ▼
+Conclusion A
+
+Evidence Set B
+      │
+      ▼
+Conclusion B
+```
+
+Resolution requires evaluating the quality, relevance and provenance of the evidence.
+
+---
+
+## Method Conflict
+
+Agents analyze the same problem using different reasoning methods.
+
+```text
+Shared Evidence
+      │
+ ┌────┴────┐
+ ▼         ▼
+Method A  Method B
+ │         │
+ ▼         ▼
+Result A  Result B
+```
+
+Different methods may reveal different strengths, weaknesses or hidden assumptions.
+
+---
+
+## Assumption Conflict
+
+Two agents may agree on facts while relying on different assumptions.
+
+```text
+Facts
+ │
+ ├── Assumption A → Conclusion A
+ │
+ └── Assumption B → Conclusion B
+```
+
+Making assumptions visible can be more valuable than forcing premature agreement.
+
+---
+
+## Confidence Conflict
+
+Agents may reach the same conclusion but disagree about how strongly it is supported.
+
+```text
+Same Conclusion
+      │
+ ┌────┼────┐
+ ▼    ▼    ▼
+High Medium Low
+Confidence
+```
+
+ORION treats confidence as a separate dimension from agreement.
+
+---
+
+# Structured Conflict Resolution
+
+A public conceptual conflict-resolution lifecycle may follow:
+
+```text
+Conflict Detected
+       │
+       ▼
+Conflicting Claims Isolated
+       │
+       ▼
+Evidence Sources Compared
+       │
+       ▼
+Assumptions Identified
+       │
+       ▼
+Independent Review Requested
+       │
+       ▼
+Alternative Explanations Evaluated
+       │
+       ▼
+Resolution Possible?
+       │
+   ┌───┴───┐
+   ▼       ▼
+  YES      NO
+   │        │
+   ▼        ▼
+Resolved   Preserve
+Position   Uncertainty
+   │        │
+   └───┬────┘
+       ▼
+Bounded Collective Result
+```
+
+A valid outcome may therefore be:
+
+- resolved agreement;
+- conditional agreement;
+- preserved disagreement;
+- insufficient evidence;
+- deferred conclusion.
+
+ORION does not require artificial certainty.
+
+---
+
+# Why This Matters at Large Scale
+
+As agent populations become larger, contradictory reasoning becomes more likely.
+
+A million-agent architecture cannot reasonably assume universal agreement.
+
+The challenge is not eliminating disagreement.
+
+The challenge is organizing it.
+
+```text
+Large Agent Population
+        │
+        ▼
+Many Independent Conclusions
+        │
+        ▼
+Local Conflict Detection
+        │
+        ▼
+Domain-Level Resolution
+        │
+        ▼
+Federation-Level Comparison
+        │
+        ▼
+ORION Cross-Federation Synthesis
+        │
+        ▼
+HANTER Executive Coordination
+```
+
+Conflicts should be resolved as close as practical to the domain where they originate.
+
+Only material unresolved conflicts should escalate upward.
+
+This reduces coordination load while preserving visibility of important uncertainty.
+
+---
+
+# Truth Is Not Majority Vote
+
+ORION explicitly rejects the assumption that:
+
+> The conclusion supported by the largest number of agents must be correct.
+
+A majority may be wrong when agents share:
+
+- the same flawed source;
+- the same incorrect assumption;
+- correlated model behavior;
+- insufficient expertise;
+- incomplete evidence.
+
+Therefore:
+
+```text
+Agent Count
+    ≠
+Truth
+
+Consensus
+    ≠
+Verification
+
+Confidence
+    ≠
+Evidence
+```
+
+The objective is evidence-aware collective reasoning.
+
+---
+
+# Minority Reasoning
+
+A minority conclusion should not automatically disappear because fewer agents support it.
+
+A minority agent may identify:
+
+- a critical security risk;
+- an overlooked dependency;
+- an incorrect assumption;
+- a rare failure mode;
+- stronger contradictory evidence.
+
+ORION therefore preserves significant dissent when it remains materially relevant.
+
+```text
+Majority Conclusion
+        │
+        ├───────────┐
+        ▼           ▼
+Supporting      Minority
+Evidence        Evidence
+        │           │
+        └─────┬─────┘
+              ▼
+        Comparative Review
+              │
+              ▼
+      Evidence-Based Result
+```
+
+---
+
+# HANTER Executive Coordination
+
+**HANTER — Chief Executive Orchestrator and Executive AI Director of Collective Intelligence.**
+
+Within the public IMPERIAL Core architecture, HANTER coordinates the larger mission context in which ORION performs collective reasoning.
+
+When significant unresolved conflicts remain, HANTER may conceptually coordinate:
+
+- escalation;
+- additional specialist review;
+- cross-domain analysis;
+- evidence consolidation;
+- mission reprioritization;
+- bounded executive synthesis.
+
+HANTER does not create truth by authority.
+
+Its role is executive coordination.
+
+Important architectural authority remains with the Architect.
+
+---
+
+# Final Architectural Authority
+
+```text
+Alexander Romaskevich
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+                         │
+                         ▼
+                      HANTER
+Chief Executive Orchestrator and
+Executive AI Director of Collective Intelligence
+                         │
+                         ▼
+                       ORION
+Federated Collective Intelligence
+and Reasoning Architecture
+                         │
+                         ▼
+Specialized Federations
+                         │
+                         ▼
+Independent Reasoning and Verification
+```
+
+Neither consensus, ORION nor HANTER replaces the final architectural authority of Alexander Romaskevich.
+
+---
+
+# Collective Truth as a Bounded Engineering Result
+
+ORION does not define collective truth as absolute certainty.
+
+For engineering purposes, a strong collective result should describe:
+
+```text
+What Is Supported
+        +
+By Which Evidence
+        +
+With What Confidence
+        +
+Under Which Assumptions
+        +
+With Which Known Contradictions
+        +
+Within Which Scope
+```
+
+This produces a bounded engineering conclusion rather than an unsupported universal claim.
+
+---
+
+# Public Research Direction
+
+ORION publicly explores:
+
+- multi-agent disagreement;
+- evidence-based conflict resolution;
+- preservation of minority reasoning;
+- uncertainty representation;
+- cross-domain verification;
+- collective confidence;
+- federated synthesis;
+- scalable collective intelligence governance.
+
+These are public architectural research directions.
+
+They are not claims of current operational capability.
+
+---
+
+# Public / Private Boundary
+
+This document intentionally remains at the architectural level.
+
+It does not disclose:
+
+- private conflict-resolution algorithms;
+- agent prompts;
+- internal scoring systems;
+- private orchestration mechanisms;
+- production infrastructure;
+- security-sensitive controls;
+- restricted operational procedures.
+
+---
+
+# Canonical Public Identity
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+Architect of HANTER
+
+Author of the public ORION architecture.
+
+---
+
+© IMPERIAL Core.
+
+Public Engineering Documentation.
+
+All Rights Reserved.
+--- 
