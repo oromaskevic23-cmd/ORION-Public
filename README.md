@@ -1660,3 +1660,163 @@ Author of the public ORION architecture.
 Public Engineering Documentation.
 
 All Rights Reserved.
+README.md
+---
+
+# The Future of Collective Intelligence
+
+ORION is founded on the architectural vision that the future of artificial intelligence will not depend solely on increasingly larger individual models.
+
+Long-term progress may emerge from governed collaboration between many specialized AI agents capable of combining knowledge, verifying evidence and solving problems collectively.
+
+ORION publicly explores this architectural direction.
+
+It does not claim that this future has already been achieved.
+
+---
+
+# Evolution of AI
+
+```text
+Single AI Model
+        │
+        ▼
+Specialized AI Systems
+        │
+        ▼
+Collaborative AI Teams
+        │
+        ▼
+Professional Federations
+        │
+        ▼
+Collective Intelligence
+        │
+        ▼
+Long-Term ORION Architecture
+```
+
+The architectural hypothesis is that specialization combined with governed collaboration may produce more capable engineering systems than isolated reasoning alone.
+
+---
+
+# Public Research Areas
+
+ORION documents architectural research in:
+
+- Collective Intelligence;
+- Federated AI Systems;
+- Distributed Engineering;
+- Professional AI Collaboration;
+- Multi-Agent Coordination;
+- Evidence-Based Reasoning;
+- Responsible AI Governance;
+- Long-Term AI Architecture.
+
+These research areas are intentionally public in order to encourage discussion, engineering transparency and architectural evolution.
+
+---
+
+# Why Collective Intelligence Matters
+
+Future engineering systems will increasingly require knowledge that no single specialist can completely master.
+
+ORION explores how independent specialists may contribute:
+
+- deeper expertise;
+- broader analysis;
+- independent verification;
+- engineering diversity;
+- architectural resilience;
+- structured collaboration.
+
+Collective intelligence is therefore viewed as an architectural capability rather than simply increasing computational scale.
+
+---
+
+# Public Vision
+
+ORION envisions an ecosystem where thousands of professional reasoning groups may collaborate while remaining:
+
+- governed;
+- transparent;
+- modular;
+- evidence-driven;
+- traceable;
+- architecturally consistent.
+
+The architecture is intended to evolve over many years as AI systems continue to mature.
+
+---
+
+# Relationship with IMPERIAL Core
+
+Within the public architecture:
+
+Alexander Romaskevich
+
+↓
+
+Founder • Owner • CEO • Chief Systems Architect
+
+↓
+
+IMPERIAL Core
+
+↓
+
+HANTER
+
+Executive AI Coordination Center
+
+↓
+
+ORION
+
+Collective Intelligence Architecture
+
+↓
+
+Professional Federations
+
+↓
+
+Specialized AI Agent Communities
+
+This public relationship provides a stable architectural identity while maintaining the Public / Private Boundary.
+
+---
+
+# Public Boundary
+
+This repository publishes architectural concepts, research direction and engineering documentation.
+
+It does not publish:
+
+- private implementation;
+- internal orchestration logic;
+- confidential engineering assets;
+- production infrastructure;
+- restricted operational procedures.
+
+---
+
+# Canonical Public Identity
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+Architect of HANTER
+
+Author of the public ORION architecture.
+
+---
+
+© IMPERIAL Core.
+
+Public Engineering Documentation.
+
+All Rights Reserved.
