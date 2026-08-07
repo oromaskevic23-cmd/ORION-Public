@@ -2885,4 +2885,368 @@ HANTER — Chief Executive Orchestrator and Executive AI Director of Collective 
 Public Engineering Documentation.
 
 All Rights Reserved.
+---
+
+# Collective Memory and Knowledge Continuity
+
+ORION explores how collective intelligence can preserve useful knowledge across long-running missions without depending on the temporary context of any single AI agent.
+
+The architectural objective is continuity.
+
+A specialist agent may participate in one mission, produce valuable reasoning and later leave the active reasoning population.
+
+The knowledge produced during that mission should not disappear simply because the individual agent is no longer active.
+
+ORION therefore treats collective knowledge as an architectural asset that must remain:
+
+- attributable;
+- reviewable;
+- evidence-linked;
+- bounded by context;
+- version-aware;
+- reusable when appropriate;
+- replaceable when stronger evidence appears.
+
+---
+
+# From Temporary Reasoning to Durable Knowledge
+
+```text
+Temporary Agent Reasoning
+          │
+          ▼
+Structured Finding
+          │
+          ▼
+Evidence Association
+          │
+          ▼
+Independent Review
+          │
+          ▼
+Bounded Knowledge Record
+          │
+          ▼
+Collective Knowledge Context
+          │
+          ▼
+Future Mission Reuse
+```
+
+The objective is not to preserve every generated sentence.
+
+The objective is to preserve useful, validated and contextually bounded knowledge.
+
+---
+
+# Knowledge Must Preserve Context
+
+A conclusion without context can become misleading.
+
+ORION therefore treats useful collective knowledge as more than a statement.
+
+Conceptually:
+
+```text
+Knowledge Record
+      │
+      ├── Subject
+      ├── Supporting Evidence
+      ├── Reasoning Context
+      ├── Assumptions
+      ├── Confidence Boundary
+      ├── Known Contradictions
+      ├── Applicable Scope
+      └── Revision State
+```
+
+This allows future reasoning groups to understand not only what was concluded, but under which conditions that conclusion was considered valid.
+
+---
+
+# Knowledge Is Not Permanent Truth
+
+ORION does not assume that previously accepted knowledge must remain correct forever.
+
+New evidence may:
+
+- strengthen an existing conclusion;
+- weaken an existing conclusion;
+- narrow its applicable scope;
+- reveal missing assumptions;
+- contradict previous reasoning;
+- make an older conclusion obsolete.
+
+Therefore, collective knowledge should remain subject to governed revision.
+
+```text
+Existing Knowledge
+        │
+        ▼
+New Evidence Arrives
+        │
+        ▼
+Re-Evaluation
+        │
+   ┌────┼────┐
+   ▼    ▼    ▼
+Confirm Refine Replace
+        │
+        ▼
+Updated Collective Context
+```
+
+Architectural continuity must not become architectural rigidity.
+
+---
+
+# Knowledge Across Agent Generations
+
+Large AI ecosystems may contain continuously changing populations of specialized agents.
+
+```text
+Agent Generation A
+        │
+        ▼
+Creates Verified Knowledge
+        │
+        ▼
+ORION Collective Context
+        │
+        ▼
+Agent Generation B
+        │
+        ▼
+Reuses and Challenges Knowledge
+        │
+        ▼
+Improved Collective Context
+        │
+        ▼
+Agent Generation C
+```
+
+This enables long-term learning at the architectural level without requiring one permanent agent to retain every historical reasoning process.
+
+---
+
+# Mission-to-Mission Continuity
+
+One mission may produce knowledge relevant to another mission.
+
+```text
+Mission A
+   │
+   ▼
+Verified Findings
+   │
+   ▼
+Collective Knowledge Context
+   │
+   ├───────────────┐
+   ▼               ▼
+Mission B        Mission C
+   │               │
+   ▼               ▼
+Reuse            Re-Evaluate
+```
+
+Reuse must remain governed.
+
+Knowledge that was valid in one environment should not automatically be treated as valid in every future environment.
+
+---
+
+# Collective Memory at Large Scale
+
+As ORION scales conceptually toward very large dynamic agent populations, unmanaged memory would become increasingly difficult to control.
+
+The public architectural direction therefore favors structured knowledge reduction.
+
+```text
+Potentially Millions of Agent Observations
+                    │
+                    ▼
+           Mission-Level Findings
+                    │
+                    ▼
+             Verified Evidence
+                    │
+                    ▼
+              Domain Knowledge
+                    │
+                    ▼
+          Federated Knowledge Context
+                    │
+                    ▼
+                   ORION
+          Collective Knowledge Layer
+                    │
+                    ▼
+                  HANTER
+          Executive Mission Context
+```
+
+The architecture should preserve valuable knowledge while preventing unnecessary accumulation of low-value or contradictory material.
+
+---
+
+# Forgetting Can Be an Architectural Capability
+
+Collective intelligence must also be able to stop relying on information that is no longer valid.
+
+Knowledge may need to be:
+
+- superseded;
+- deprecated;
+- restricted;
+- revalidated;
+- archived;
+- excluded from future reasoning.
+
+A system that remembers everything without understanding validity may become less reliable over time.
+
+ORION therefore treats controlled forgetting and supersession as part of knowledge quality.
+
+---
+
+# Knowledge Provenance
+
+Future reasoning should be able to distinguish between:
+
+```text
+Observed Fact
+      │
+Derived Conclusion
+      │
+Architectural Assumption
+      │
+External Reference
+      │
+Unverified Hypothesis
+```
+
+These categories should not be silently treated as equivalent.
+
+Knowledge provenance improves the ability of agents to challenge weak assumptions and avoid turning historical speculation into apparent fact.
+
+---
+
+# HANTER and Knowledge Continuity
+
+**HANTER — Chief Executive Orchestrator and Executive AI Director of Collective Intelligence.**
+
+Within the public IMPERIAL Core architecture, HANTER provides executive mission coordination above the ORION collective reasoning environment.
+
+ORION focuses on collective reasoning and knowledge continuity.
+
+HANTER coordinates how that collective capability participates in the larger mission context.
+
+Neither HANTER nor ORION is publicly defined as an unrestricted permanent memory system.
+
+Private memory architecture, internal storage design and protected operational mechanisms remain outside this public repository.
+
+---
+
+# Canonical Public Architecture
+
+```text
+Alexander Romaskevich
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+                         │
+                         ▼
+                      HANTER
+Chief Executive Orchestrator and
+Executive AI Director of Collective Intelligence
+                         │
+                         ▼
+                       ORION
+Federated Collective Intelligence
+and Reasoning Architecture
+                         │
+                         ▼
+Collective Reasoning
+                         │
+                         ▼
+Evidence-Aware Knowledge Continuity
+                         │
+                         ▼
+Future Governed Reasoning
+```
+
+This architecture preserves the public relationship between executive coordination, collective reasoning and long-term knowledge continuity.
+
+---
+
+# Long-Term Research Direction
+
+ORION publicly explores architectural principles for:
+
+- collective memory;
+- knowledge provenance;
+- mission continuity;
+- evidence-aware reuse;
+- contradiction preservation;
+- knowledge revision;
+- supersession;
+- bounded forgetting;
+- cross-generation reasoning;
+- long-term AI knowledge governance.
+
+These remain architectural research directions.
+
+They are not claims regarding current runtime implementation.
+
+---
+
+# Public Status Boundary
+
+This document does not claim that ORION currently provides:
+
+- persistent production memory;
+- globally distributed knowledge storage;
+- autonomous permanent learning;
+- verified long-term memory across millions of live agents;
+- production-scale knowledge federation.
+
+Architecture, implementation, testing, verification, deployment and production authorization remain separate engineering states.
+
+---
+
+# Public / Private Boundary
+
+This document intentionally excludes:
+
+- private memory implementation;
+- internal data structures;
+- storage architecture;
+- retrieval algorithms;
+- private agent context;
+- operational memory policies;
+- protected infrastructure;
+- security-sensitive knowledge controls.
+
+Only the public architectural principles are documented.
+
+---
+
+# Canonical Public Identity
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+Architect of HANTER
+
+Author of the public ORION architecture.
+
+---
+
+© IMPERIAL Core.
+
+Public Engineering Documentation.
+
+All Rights Reserved.
 
