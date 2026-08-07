@@ -1820,3 +1820,316 @@ Author of the public ORION architecture.
 Public Engineering Documentation.
 
 All Rights Reserved.
+---
+---
+
+# Distributed Knowledge Synthesis
+
+ORION explores how knowledge produced by many specialized AI agents can be transformed into one coherent, traceable and evidence-aware collective result.
+
+The architecture does not treat collective intelligence as simple voting.
+
+A strong collective result should preserve:
+
+- specialist expertise;
+- independent reasoning;
+- evidence provenance;
+- disagreement;
+- uncertainty;
+- alternative hypotheses;
+- verification results;
+- architectural accountability.
+
+The objective is not to make every agent agree.
+
+The objective is to make the final reasoning stronger than any unverified collection of individual outputs.
+
+---
+
+# From Individual Knowledge to Collective Knowledge
+
+```text
+Specialized AI Agents
+          │
+          ▼
+Independent Findings
+          │
+          ▼
+Evidence and Reasoning Packages
+          │
+          ▼
+Cross-Agent Verification
+          │
+          ▼
+Contradiction Detection
+          │
+          ▼
+Domain-Level Synthesis
+          │
+          ▼
+Cross-Domain Comparison
+          │
+          ▼
+ORION Collective Knowledge
+          │
+          ▼
+HANTER Executive Coordination
+```
+
+Each layer reduces complexity while preserving the ability to trace important conclusions back to their supporting reasoning.
+
+---
+
+# Collective Intelligence Is More Than Consensus
+
+ORION distinguishes several different states:
+
+```text
+AGREEMENT
+Agents independently reach compatible conclusions.
+
+DISAGREEMENT
+Agents produce competing conclusions.
+
+VERIFIED AGREEMENT
+Compatible conclusions are supported by sufficient evidence.
+
+UNRESOLVED CONFLICT
+Important contradictions remain.
+
+INSUFFICIENT EVIDENCE
+A conclusion cannot yet be justified.
+
+BOUNDED SYNTHESIS
+A final position is produced together with its limitations.
+```
+
+This distinction prevents simple majority agreement from being confused with verified knowledge.
+
+---
+
+# Evidence-Aware Synthesis
+
+A collective conclusion should not hide how it was produced.
+
+Conceptually:
+
+```text
+Conclusion
+    │
+    ├── Supporting Evidence
+    │
+    ├── Independent Reasoning Paths
+    │
+    ├── Verification Results
+    │
+    ├── Known Contradictions
+    │
+    └── Confidence Boundary
+```
+
+This allows future reviewers, agents and governance layers to understand not only the result but also why the result was accepted.
+
+---
+
+# Knowledge Across Professional Federations
+
+ORION may combine knowledge produced by different professional domains.
+
+```text
+                     Complex Mission
+                           │
+          ┌────────────────┼────────────────┐
+          ▼                ▼                ▼
+     Engineering        Research        Security
+     Federation         Federation      Federation
+          │                │                │
+          ▼                ▼                ▼
+     Engineering       Scientific        Risk
+      Evidence          Evidence         Evidence
+          │                │                │
+          └────────────────┼────────────────┘
+                           ▼
+                    ORION Synthesis
+                           │
+                           ▼
+                Cross-Domain Knowledge
+                           │
+                           ▼
+              HANTER Executive Coordination
+```
+
+This architecture allows collective reasoning to extend beyond a single profession.
+
+A mission may require knowledge from engineering, science, economics, security, law, infrastructure or other specialized disciplines.
+
+Only relevant and governed domains should participate.
+
+---
+
+# Scaling Knowledge Without Scaling Confusion
+
+As agent populations become larger, raw information volume may grow dramatically.
+
+ORION therefore separates:
+
+```text
+Raw Agent Output
+       │
+       ▼
+Relevant Findings
+       │
+       ▼
+Verified Evidence
+       │
+       ▼
+Domain Knowledge
+       │
+       ▼
+Federated Knowledge
+       │
+       ▼
+Collective Synthesis
+```
+
+The purpose is to prevent high agent counts from producing high information noise.
+
+More agents should expand useful analytical capacity, not merely produce more text.
+
+---
+
+# Million-Agent Knowledge Architecture
+
+In a long-term architecture containing very large dynamic agent populations, knowledge may be consolidated progressively.
+
+```text
+Potentially Millions of Specialized Agent Instances
+                         │
+                         ▼
+              Bounded Reasoning Cells
+                         │
+                         ▼
+                Professional Teams
+                         │
+                         ▼
+                  Domain Clusters
+                         │
+                         ▼
+             Professional Federations
+                         │
+                         ▼
+                       ORION
+          Collective Knowledge Synthesis
+                         │
+                         ▼
+                      HANTER
+         Executive Collective Coordination
+```
+
+This makes conceptual million-agent scale possible without requiring every agent to communicate directly with every other agent.
+
+Million-agent scale remains a long-term architectural target only.
+
+It is not a statement of current deployment or runtime capability.
+
+---
+
+# HANTER and Collective Knowledge
+
+Within the public IMPERIAL Core architecture:
+
+**HANTER — Chief Executive Orchestrator and Executive AI Director of Collective Intelligence.**
+
+HANTER provides executive coordination for the collective reasoning environment represented by ORION.
+
+ORION organizes federated collective intelligence.
+
+HANTER coordinates the larger executive mission context in which that intelligence is used.
+
+Neither ORION nor HANTER replaces the final architectural authority of the Architect.
+
+---
+
+# Canonical Authority Chain
+
+```text
+Alexander Romaskevich
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+                         │
+                         ▼
+                      HANTER
+Chief Executive Orchestrator and
+Executive AI Director of Collective Intelligence
+                         │
+                         ▼
+                       ORION
+Federated Collective Intelligence
+and Reasoning Architecture
+                         │
+                         ▼
+Professional Federations
+                         │
+                         ▼
+Specialized AI Agents
+```
+
+This relationship forms part of the public architectural identity of ORION.
+
+---
+
+# Public Research Principle
+
+ORION explores the hypothesis that properly governed collaboration among specialized AI agents may increase the breadth, verification depth and overall quality of reasoning available to an AI system.
+
+The architecture does not claim that:
+
+- additional agents automatically improve reasoning;
+- consensus guarantees truth;
+- every agent contributes equal value;
+- collective intelligence eliminates uncertainty;
+- millions of agents are currently operational;
+- ORION is currently deployed at million-agent scale.
+
+Evidence remains more important than agent count.
+
+Architecture remains separate from implementation.
+
+---
+
+# Public / Private Boundary
+
+This repository documents public architectural concepts only.
+
+It intentionally excludes private:
+
+- implementation;
+- prompts;
+- algorithms;
+- orchestration internals;
+- operational procedures;
+- infrastructure details;
+- security-sensitive mechanisms;
+- credentials;
+- restricted engineering information.
+
+---
+
+# Canonical Public Identity
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+Architect of HANTER
+
+Author of the public ORION architecture.
+
+---
+
+© IMPERIAL Core.
+
+Public Engineering Documentation.
+
+All Rights Reserved.
