@@ -4957,3 +4957,451 @@ Author of the public ORION architecture.
 Public Engineering Documentation.
 
 All Rights Reserved.
+---
+---
+
+# Multi-Model Collective Intelligence
+
+ORION explores a long-term architectural principle: collective intelligence should not necessarily depend on one AI model, one model family or one reasoning approach.
+
+Different AI systems may exhibit different strengths, weaknesses, reasoning patterns and specialist capabilities.
+
+A federated intelligence architecture can potentially benefit from this diversity by allowing multiple qualified AI systems to contribute to the same mission under common governance.
+
+The objective is not model competition.
+
+The objective is stronger collective reasoning through controlled diversity.
+
+---
+
+# Beyond a Single Model
+
+A collective intelligence system built entirely around one model family may inherit common limitations.
+
+```text
+One Model Family
+       │
+       ▼
+Many Agent Instances
+       │
+       ▼
+Potentially Similar
+Reasoning Patterns
+       │
+       ▼
+Correlated Blind Spots
+```
+
+Increasing agent count does not automatically create reasoning diversity if the participating agents remain highly correlated.
+
+ORION therefore explores architectural diversity as another dimension of collective intelligence.
+
+---
+
+# Federated Model Diversity
+
+Conceptually, different AI systems may participate within specialized reasoning populations.
+
+```text
+                        ORION
+      Federated Collective Intelligence
+                          │
+        ┌─────────────────┼─────────────────┐
+        ▼                 ▼                 ▼
+   Model Family A    Model Family B    Model Family C
+        │                 │                 │
+        ▼                 ▼                 ▼
+ Specialized         Specialized       Specialized
+ Reasoning Cells     Reasoning Cells   Reasoning Cells
+        │                 │                 │
+        └─────────────────┼─────────────────┘
+                          ▼
+              Independent Comparison
+                          │
+                          ▼
+              Evidence Verification
+                          │
+                          ▼
+                Collective Synthesis
+```
+
+This public architecture does not depend on any specific commercial or open-source model provider.
+
+Model selection remains an implementation concern outside this public architectural description.
+
+---
+
+# Model Diversity Is Not Automatic Quality
+
+Using multiple models does not guarantee better reasoning.
+
+Several models may:
+
+- repeat the same incorrect information;
+- rely on overlapping training knowledge;
+- share similar assumptions;
+- produce confident but unsupported conclusions;
+- fail in different ways;
+- disagree without sufficient evidence.
+
+ORION therefore places evidence and verification above model identity.
+
+```text
+Model Diversity
+       +
+Independent Reasoning
+       +
+Evidence
+       +
+Verification
+       +
+Governance
+       =
+Greater Reasoning Potential
+```
+
+Again, the result is **potential**, not guaranteed superiority.
+
+---
+
+# Model-Agnostic Architecture
+
+ORION is publicly described as model-agnostic.
+
+The architectural identity belongs to ORION and IMPERIAL Core rather than to an external AI provider.
+
+```text
+External AI Models
+        │
+        ▼
+Qualified Capabilities
+        │
+        ▼
+Specialized Agent Roles
+        │
+        ▼
+ORION Federated Reasoning
+        │
+        ▼
+HANTER Executive Coordination
+```
+
+Models may evolve.
+
+Providers may change.
+
+Capabilities may improve.
+
+The architecture should be capable of evolving without requiring its public identity to be redefined around one external model.
+
+---
+
+# Capability-Based Participation
+
+An AI system should participate because its capabilities are appropriate for the mission.
+
+Relevant capability categories may conceptually include:
+
+- analytical reasoning;
+- software engineering;
+- scientific analysis;
+- language understanding;
+- mathematical reasoning;
+- verification;
+- research synthesis;
+- risk analysis;
+- multimodal interpretation;
+- domain-specific expertise.
+
+The architecture focuses on required capability rather than provider prestige.
+
+---
+
+# Independent Reasoning Across Models
+
+For important questions, model diversity may provide additional independent reasoning paths.
+
+```text
+Critical Question
+       │
+ ┌─────┼─────┐
+ ▼     ▼     ▼
+Model A Model B Model C
+Agent   Agent   Agent
+ │       │       │
+ ▼       ▼       ▼
+Independent Findings
+       │
+       ▼
+Evidence Comparison
+       │
+       ▼
+Contradiction Analysis
+       │
+       ▼
+ORION Synthesis
+```
+
+Agreement between different models may be useful evidence of convergence.
+
+It is still not proof of truth.
+
+---
+
+# Cross-Model Disagreement
+
+Disagreement can reveal valuable information.
+
+```text
+Model A
+Conclusion X
+     │
+     ├────────────┐
+     │            │
+     ▼            ▼
+Evidence A     Model B
+               Conclusion Y
+                   │
+                   ▼
+               Evidence B
+                   │
+          ┌────────┴────────┐
+          ▼                 ▼
+   Compare Evidence   Compare Assumptions
+          │                 │
+          └────────┬────────┘
+                   ▼
+             ORION Review
+```
+
+The architecture should evaluate the underlying evidence rather than simply choose the model with the strongest language or highest confidence.
+
+---
+
+# Avoiding Provider Dependency
+
+Long-term architectures may exist longer than individual AI products, model versions or commercial relationships.
+
+ORION therefore explores a provider-independent architectural boundary.
+
+```text
+2026
+Model Generation A
+        │
+        ▼
+Future Model Generation B
+        │
+        ▼
+Future Model Generation C
+        │
+        ▼
+ORION Architectural Continuity
+```
+
+This allows the collective intelligence concept to evolve as AI technology changes.
+
+The diagram represents architectural continuity, not a deployment timeline.
+
+---
+
+# Dynamic Model Composition
+
+Different missions may require different combinations of AI capabilities.
+
+```text
+Software Mission
+   │
+   ├── Engineering Model Capability
+   ├── Security Analysis Capability
+   └── Verification Capability
+
+Research Mission
+   │
+   ├── Research Capability
+   ├── Mathematical Capability
+   └── Evidence Review Capability
+
+Multidisciplinary Mission
+   │
+   ├── Multiple Model Families
+   ├── Multiple Professional Domains
+   └── Independent Verification
+```
+
+ORION does not require every available model to participate in every mission.
+
+---
+
+# Million-Agent Multi-Model Horizon
+
+At conceptual large scale, model diversity may exist throughout professional federations.
+
+```text
+Potentially Very Large Agent Population
+                     │
+                     ▼
+          Multiple Model Families
+                     │
+                     ▼
+             Specialist Cells
+                     │
+                     ▼
+         Professional Federations
+                     │
+                     ▼
+                   ORION
+       Federated Collective Intelligence
+                     │
+                     ▼
+                   HANTER
+       Executive Collective Coordination
+```
+
+A future large-scale ORION architecture could therefore combine both:
+
+**professional diversity**
+
+and
+
+**model diversity**.
+
+Neither is presented as currently deployed at million-agent scale.
+
+---
+
+# HANTER and Multi-Model Coordination
+
+**HANTER — Chief Executive Orchestrator and Executive AI Director of Collective Intelligence.**
+
+Within the public IMPERIAL Core architecture, HANTER provides executive coordination above the ORION reasoning environment.
+
+HANTER is not publicly defined as belonging to one external model provider.
+
+Its architectural role remains associated with IMPERIAL Core.
+
+ORION provides the federated collective reasoning architecture through which different qualified AI capabilities may conceptually participate.
+
+---
+
+# Architectural Sovereignty
+
+Model-agnostic design supports a broader architectural principle:
+
+> The intelligence providers may change while the governing architecture remains identifiable.
+
+The public architecture therefore separates:
+
+```text
+AI Model
+    ≠
+Agent Role
+    ≠
+ORION
+    ≠
+HANTER
+    ≠
+Architectural Authority
+```
+
+Each represents a different architectural concept.
+
+---
+
+# Canonical Authority Relationship
+
+```text
+Alexander Romaskevich
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+                         │
+                         ▼
+                      HANTER
+Chief Executive Orchestrator and
+Executive AI Director of Collective Intelligence
+                         │
+                         ▼
+                       ORION
+Federated Collective Intelligence
+and Reasoning Architecture
+                         │
+                         ▼
+Model-Agnostic Professional Federations
+                         │
+                         ▼
+Specialized AI Agents
+```
+
+External models may provide capabilities.
+
+They do not define the authority structure of IMPERIAL Core.
+
+---
+
+# Public Research Direction
+
+ORION publicly explores:
+
+- multi-model AI systems;
+- model-agnostic agent architecture;
+- cross-model verification;
+- reasoning diversity;
+- correlated failure reduction;
+- capability-based model participation;
+- provider-independent AI architecture;
+- federated collective intelligence.
+
+These remain public architectural research directions.
+
+---
+
+# Public Status Boundary
+
+This document does not claim:
+
+- current integration with every major AI provider;
+- production multi-model routing;
+- verified million-agent multi-model operation;
+- guaranteed superiority from model diversity;
+- provider partnerships;
+- commercial agreements;
+- unrestricted external model access.
+
+Architecture, implementation, testing, verification, deployment and production authorization remain separate engineering states.
+
+---
+
+# Public / Private Boundary
+
+This repository intentionally excludes:
+
+- private model configurations;
+- provider credentials;
+- API keys;
+- private routing mechanisms;
+- internal model-selection algorithms;
+- operational prompts;
+- protected integration details;
+- security-sensitive provider controls.
+
+Only the public architectural principles are documented.
+
+---
+
+# Canonical Public Identity
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+Architect of HANTER
+
+Author of the public ORION architecture.
+
+---
+
+© IMPERIAL Core.
+
+Public Engineering Documentation.
+
+All Rights Reserved.
