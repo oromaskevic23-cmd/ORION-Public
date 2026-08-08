@@ -4500,3 +4500,460 @@ Author of the public ORION architecture.
 Public Engineering Documentation.
 
 All Rights Reserved.
+---
+
+# Collective Intelligence Specialization and Expert Routing
+
+ORION explores a fundamental principle of large-scale collective intelligence:
+
+> The right specialist should reason about the right problem.
+
+Increasing the number of AI agents alone does not guarantee stronger intelligence.
+
+A large collective becomes more useful when different agents develop or receive specialized roles and when missions are routed toward the professional capabilities most relevant to the problem.
+
+ORION therefore treats specialization, expert selection and cross-domain collaboration as fundamental architectural concepts.
+
+---
+
+# From Generic Agents to Professional Intelligence
+
+A flat population of general-purpose agents may create unnecessary duplication.
+
+ORION instead explores structured specialization.
+
+```text
+                     Complex Mission
+                           │
+                           ▼
+                    Mission Analysis
+                           │
+                           ▼
+                Required Expertise Map
+                           │
+        ┌──────────────────┼──────────────────┐
+        ▼                  ▼                  ▼
+   Engineering         Research          Security
+   Specialists         Specialists       Specialists
+        │                  │                  │
+        └──────────────────┼──────────────────┘
+                           ▼
+                 Cross-Domain Reasoning
+                           │
+                           ▼
+                    ORION Synthesis
+```
+
+The objective is not to make every agent know everything.
+
+The objective is to combine relevant expertise.
+
+---
+
+# Expert Routing
+
+ORION publicly explores the concept of routing work according to required capability.
+
+```text
+Incoming Problem
+       │
+       ▼
+Problem Classification
+       │
+       ▼
+Required Capabilities
+       │
+       ▼
+Relevant Professional Domain
+       │
+       ▼
+Qualified Reasoning Cells
+       │
+       ▼
+Independent Specialist Analysis
+       │
+       ▼
+Verification and Synthesis
+```
+
+Expert routing helps prevent unrelated agents from consuming reasoning capacity on problems outside their useful domain.
+
+---
+
+# Professional Federations
+
+ORION may conceptually organize specialized intelligence into professional federations.
+
+Examples may include:
+
+- software engineering;
+- systems architecture;
+- cybersecurity;
+- scientific research;
+- economics;
+- finance;
+- legal analysis;
+- infrastructure;
+- data engineering;
+- AI governance;
+- risk analysis;
+- technical verification.
+
+These examples illustrate potential professional domains.
+
+They do not represent a claim that all such federations are currently implemented or operational.
+
+---
+
+# Dynamic Specialization
+
+The architecture does not require one permanent organizational structure.
+
+Different missions may require different combinations of expertise.
+
+```text
+Mission A
+   │
+   ├── Engineering
+   ├── Security
+   └── Verification
+
+Mission B
+   │
+   ├── Research
+   ├── Economics
+   └── Risk Analysis
+
+Mission C
+   │
+   ├── Systems Architecture
+   ├── Data Engineering
+   ├── Security
+   └── Governance
+```
+
+Agent organization should follow mission requirements rather than force every mission through the same static team structure.
+
+---
+
+# Specialist Depth
+
+Professional specialization may itself contain multiple levels.
+
+```text
+Engineering Federation
+        │
+        ├── Systems Architecture
+        │
+        ├── Software Engineering
+        │
+        ├── Infrastructure
+        │
+        ├── Reliability
+        │
+        └── Verification
+```
+
+A domain may therefore contain narrower specialist groups capable of deeper analysis.
+
+This enables ORION to conceptually scale both horizontally across professions and vertically into specialized expertise.
+
+---
+
+# Cross-Domain Problems
+
+Some of the most difficult problems exist between disciplines.
+
+A technically correct solution may still fail because of:
+
+- security constraints;
+- economic limitations;
+- legal boundaries;
+- infrastructure requirements;
+- governance risks;
+- operational dependencies.
+
+ORION therefore supports the architectural concept of cross-domain reasoning.
+
+```text
+Engineering Result
+        +
+Security Review
+        +
+Economic Analysis
+        +
+Governance Review
+        +
+Independent Verification
+        │
+        ▼
+Cross-Domain Synthesis
+```
+
+No single federation must automatically dominate the others.
+
+Relevant evidence determines the strength of a conclusion.
+
+---
+
+# Expert Diversity
+
+ORION distinguishes between agent quantity and expertise diversity.
+
+```text
+10,000 Similar Agents
+        │
+        ▼
+Potentially Similar Reasoning
+
+versus
+
+Multiple Independent
+Professional Specialists
+        │
+        ▼
+Different Methods
+Different Evidence
+Different Perspectives
+        │
+        ▼
+Broader Reasoning Coverage
+```
+
+Large numbers of highly correlated agents may reproduce the same mistake.
+
+Professional and methodological diversity can improve the probability that important assumptions or errors are challenged.
+
+---
+
+# Specialist Independence
+
+Expert routing should not eliminate independent reasoning.
+
+Several specialists may analyze the same important question independently before seeing one another's conclusions.
+
+```text
+Critical Question
+      │
+ ┌────┼────┐
+ ▼    ▼    ▼
+Expert A Expert B Expert C
+ │       │       │
+ ▼       ▼       ▼
+Independent Conclusions
+          │
+          ▼
+Comparative Verification
+          │
+          ▼
+ORION Synthesis
+```
+
+This reduces the risk that early opinions automatically shape every later conclusion.
+
+---
+
+# Capability Before Identity
+
+A long-term AI architecture should not depend on one permanently irreplaceable agent identity for every professional capability.
+
+The important architectural question is:
+
+> Which verified capability does this mission require?
+
+Conceptually:
+
+```text
+Mission Requirement
+        │
+        ▼
+Required Capability
+        │
+        ▼
+Qualified Specialist Population
+        │
+        ▼
+Selected Reasoning Cell
+```
+
+This supports dynamic populations and long-term organizational evolution.
+
+---
+
+# Scaling Professional Intelligence
+
+At conceptual large scale, ORION may organize enormous populations without treating them as one flat swarm.
+
+```text
+Potentially Millions of Specialized Agent Instances
+                         │
+                         ▼
+                 Specialist Cells
+                         │
+                         ▼
+                 Professional Teams
+                         │
+                         ▼
+                  Domain Clusters
+                         │
+                         ▼
+             Professional Federations
+                         │
+                         ▼
+                       ORION
+          Federated Collective Intelligence
+                         │
+                         ▼
+                      HANTER
+          Executive Collective Coordination
+```
+
+The architecture can therefore scale organizationally rather than merely numerically.
+
+---
+
+# HANTER and Expert Coordination
+
+**HANTER — Chief Executive Orchestrator and Executive AI Director of Collective Intelligence.**
+
+Within the public IMPERIAL Core architecture, HANTER provides executive coordination above the ORION collective reasoning environment.
+
+HANTER may conceptually coordinate:
+
+- mission objectives;
+- professional-domain participation;
+- cross-federation priorities;
+- unresolved capability gaps;
+- executive synthesis;
+- escalation of important conflicts.
+
+ORION organizes federated reasoning.
+
+HANTER coordinates how that collective intelligence serves the broader mission.
+
+---
+
+# Architect and Final Authority
+
+```text
+Alexander Romaskevich
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+                         │
+                         ▼
+                      HANTER
+Chief Executive Orchestrator and
+Executive AI Director of Collective Intelligence
+                         │
+                         ▼
+                       ORION
+Federated Collective Intelligence
+and Reasoning Architecture
+                         │
+                         ▼
+Professional Federations
+                         │
+                         ▼
+Specialized AI Agent Populations
+```
+
+Professional specialization does not create independent architectural authority.
+
+The final architectural authority of IMPERIAL Core remains with Alexander Romaskevich.
+
+---
+
+# Public Engineering Principle
+
+The ORION public architecture can summarize its specialization principle as:
+
+```text
+More Agents
+     +
+Better Specialization
+     +
+Independent Reasoning
+     +
+Correct Expert Routing
+     +
+Evidence
+     +
+Verification
+     +
+Governance
+     =
+Greater Collective Reasoning Potential
+```
+
+The word **potential** remains important.
+
+The architecture does not claim that adding specialists automatically guarantees superior results.
+
+---
+
+# Public Research Direction
+
+ORION publicly explores:
+
+- AI specialization;
+- expert routing;
+- professional AI federations;
+- capability-based task allocation;
+- cross-domain reasoning;
+- specialist independence;
+- expertise diversity;
+- scalable multi-agent organization;
+- governed collective intelligence.
+
+These remain public architectural research directions.
+
+---
+
+# Public Status Boundary
+
+This document does not claim:
+
+- production expert-routing infrastructure;
+- operational professional federations at global scale;
+- verified million-agent specialization;
+- autonomous unrestricted agent creation;
+- guaranteed reasoning superiority.
+
+Architecture, implementation, testing, verification, deployment and production authorization remain separate engineering states.
+
+---
+
+# Public / Private Boundary
+
+This repository intentionally excludes:
+
+- private routing algorithms;
+- internal capability-selection mechanisms;
+- private agent profiles;
+- operational assignment logic;
+- protected orchestration mechanisms;
+- infrastructure details;
+- security-sensitive controls.
+
+Only public architectural principles are documented.
+
+---
+
+# Canonical Public Identity
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+Architect of HANTER
+
+Author of the public ORION architecture.
+
+---
+
+© IMPERIAL Core.
+
+Public Engineering Documentation.
+
+All Rights Reserved.
