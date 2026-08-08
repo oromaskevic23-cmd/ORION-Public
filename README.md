@@ -4074,282 +4074,392 @@ Author of the public ORION architecture.
 © IMPERIAL Core.
 
 Public Engineering Documentation.
-
-All Rights Reserved.
 ---
 
-# Collective Reasoning Prioritization and Resource Governance
+# Collective Reasoning Governance and Decision Accountability
 
-ORION explores how very large populations of specialized AI agents can focus reasoning capacity on the most important parts of a mission instead of distributing equal effort everywhere.
+ORION treats collective intelligence as a governed engineering capability.
 
-At large scale, collective intelligence must decide:
+The architecture is not based on the idea that a sufficiently large number of AI agents should automatically gain authority over decisions.
 
-- which questions require deeper analysis;
-- which risks require more independent reviewers;
-- which domains need additional specialists;
-- which conclusions are already sufficiently supported;
-- which tasks should stop consuming resources;
-- which unresolved issues should escalate.
+Reasoning capability and decision authority are separate concepts.
 
-The objective is disciplined allocation of reasoning effort.
+ORION may increase the amount of available analysis, verification and specialist knowledge.
+
+It does not independently redefine who has authority to approve architectural decisions.
 
 ---
 
-# Not Every Problem Requires the Same Scale
+# Reasoning Is Not Authority
 
-A small, low-risk question may require only a limited specialist group.
+A large collective may produce:
 
-A complex or high-impact mission may require significantly broader participation.
+- stronger evidence;
+- broader analysis;
+- more independent perspectives;
+- deeper verification;
+- alternative technical proposals;
+- more complete risk identification.
+
+However:
 
 ```text
-Low Complexity
-      │
-      ▼
-Small Specialist Cell
-
-Medium Complexity
-      │
-      ▼
-Multiple Reasoning Cells
-
-High Complexity
-      │
-      ▼
-Cross-Domain Federations
-
-Critical Mission
-      │
-      ▼
-Large-Scale Independent Verification
+More Reasoning
+     ≠
+More Authority
 ```
 
-Agent population should therefore be proportional to mission need rather than fixed by architecture.
+The number of participating agents does not determine who may approve a decision.
 
 ---
 
-# Reasoning Capacity as a Governed Resource
+# Decision Accountability
 
-ORION treats reasoning capacity as something that must be allocated intentionally.
+A strong collective intelligence architecture should preserve clear accountability.
 
 Conceptually:
 
 ```text
-Mission
-   │
-   ▼
-Priority Analysis
-   │
-   ▼
-Risk and Complexity Assessment
-   │
-   ▼
-Required Domain Coverage
-   │
-   ▼
-Reasoning Capacity Allocation
-   │
-   ▼
-Specialist Work
-   │
-   ▼
-Evidence Review
-   │
-   ▼
-Capacity Reallocation
+Specialized Agents
+       │
+       ▼
+Reasoning and Evidence
+       │
+       ▼
+ORION Collective Synthesis
+       │
+       ▼
+HANTER Executive Coordination
+       │
+       ▼
+Governed Decision Boundary
+       │
+       ▼
+Architectural Authority
 ```
 
-Reasoning resources may expand, contract or move between domains as the mission evolves.
+Every major decision should remain attributable to an appropriate authority boundary.
 
 ---
 
-# Priority Dimensions
+# Human Architectural Authority
 
-A public conceptual prioritization model may consider:
+Within the public IMPERIAL Core architecture, final architectural authority remains with:
 
-- mission importance;
-- technical complexity;
-- uncertainty;
-- evidence weakness;
-- potential impact;
-- dependency criticality;
-- unresolved contradictions;
-- specialist scarcity;
-- verification requirements;
-- time constraints.
+**Alexander Romaskevich**
 
-These dimensions help determine where additional collective reasoning may provide the highest value.
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
 
----
+Architect and final authority of IMPERIAL Core
 
-# Deep Reasoning Where It Matters
+Architect of HANTER
 
-ORION should not allocate a thousand specialists to every trivial subproblem.
+ORION may support reasoning.
 
-Instead, reasoning depth should increase where uncertainty or impact increases.
+HANTER may coordinate collective intelligence.
 
-```text
-Question
-   │
-   ▼
-Already Well Supported?
-   │
- ┌─┴─┐
- ▼   ▼
-YES  NO
- │    │
- ▼    ▼
-Stop  Additional
-Work  Reasoning
-      │
-      ▼
-   Re-Evaluate
-```
-
-This allows large agent populations to remain efficient rather than generating unnecessary duplicate analysis.
+Neither replaces the Architect.
 
 ---
 
-# Dynamic Specialist Reinforcement
-
-When a domain produces weak or conflicting results, ORION may conceptually increase specialist coverage.
-
-```text
-Domain Analysis
-      │
-      ▼
-Low Confidence / Conflict
-      │
-      ▼
-Additional Specialists Assigned
-      │
-      ▼
-Independent Reasoning
-      │
-      ▼
-Evidence Comparison
-      │
-      ▼
-Confidence Re-Evaluated
-```
-
-If additional reasoning does not materially improve the evidence position, ORION should preserve uncertainty instead of continuing indefinitely.
-
----
-
-# Stopping Rules
-
-Scalable collective intelligence requires the ability to stop reasoning.
-
-A mission can consume unlimited computation if there is no bounded completion logic.
-
-Public architectural stopping conditions may include:
-
-- sufficient evidence obtained;
-- material contradictions resolved;
-- additional reasoning produces diminishing value;
-- mission deadline reached;
-- required capability unavailable;
-- acceptable confidence boundary reached;
-- Architect or authorized governance boundary requires closure.
-
-The objective is not infinite reasoning.
-
-The objective is sufficient reasoning for the mission.
-
----
-
-# Diminishing Returns
-
-Additional agents may initially improve analytical coverage.
-
-Beyond a certain point, additional reasoning may produce less marginal value.
-
-```text
-More Specialized Agents
-        │
-        ▼
-Greater Coverage
-        │
-        ▼
-More Verification
-        │
-        ▼
-Diminishing New Information
-        │
-        ▼
-Stop or Reallocate Capacity
-```
-
-ORION therefore treats scale as dynamic.
-
-The correct population is the one justified by the mission.
-
----
-
-# Large-Scale Resource Federation
-
-At conceptual million-agent scale, capacity may be distributed across many professional federations.
-
-```text
-                      HANTER
-         Executive Mission Coordination
-                          │
-                          ▼
-                       ORION
-        Collective Reasoning Prioritization
-                          │
-       ┌──────────────────┼──────────────────┐
-       ▼                  ▼                  ▼
-High-Priority        Standard-Priority   Exploration
-Federations          Federations         Federations
-       │                  │                  │
-       ▼                  ▼                  ▼
-More Independent     Normal Coverage     Limited Capacity
-Verification
-```
-
-Capacity may move dynamically as mission priorities change.
-
----
-
-# Preventing Resource Monopolization
-
-One domain should not automatically consume unlimited collective capacity.
-
-ORION publicly promotes bounded resource allocation so that:
-
-- one problem does not starve all others;
-- repeated low-value analysis can be stopped;
-- critical domains retain sufficient specialist coverage;
-- exploratory work remains bounded;
-- mission priorities remain visible.
-
-This is particularly important when agent populations become very large.
-
----
-
-# HANTER Executive Coordination
+# HANTER Executive Role
 
 **HANTER — Chief Executive Orchestrator and Executive AI Director of Collective Intelligence.**
 
-Within the public IMPERIAL Core architecture, HANTER coordinates mission-level priorities across the ORION collective reasoning environment.
+Within the public architecture, HANTER coordinates the executive use of ORION collective reasoning.
 
-Publicly described executive responsibilities may include:
+Its public architectural role may include:
 
-- mission prioritization;
-- cross-domain coordination;
-- reasoning-capacity alignment;
-- escalation of critical shortages;
-- executive consolidation;
-- maintenance of mission-level coherence.
+- mission coordination;
+- cross-domain synchronization;
+- prioritization;
+- evidence consolidation;
+- escalation;
+- executive synthesis;
+- governance alignment.
 
-ORION provides the federated collective reasoning architecture.
+HANTER is the principal executive coordination layer beneath the Architect.
 
-HANTER coordinates how that reasoning capacity supports the broader mission.
+It is not an independent source of unlimited authority.
 
 ---
 
-# Architect Authority Boundary
+# ORION Governance Position
+
+**ORION — Federated Collective Intelligence and Reasoning Architecture.**
+
+ORION provides the architectural framework through which specialized AI agents may:
+
+- analyze;
+- verify;
+- challenge;
+- compare;
+- synthesize;
+- preserve evidence;
+- expose uncertainty.
+
+ORION does not independently authorize:
+
+- production deployment;
+- irreversible external actions;
+- unrestricted resource expansion;
+- architecture changes;
+- security-sensitive operations.
+
+Decision authority remains governed separately from reasoning capability.
+
+---
+
+# Decision Classes
+
+Different decisions may require different authority levels.
+
+A public conceptual model may include:
+
+```text
+Informational Conclusion
+        │
+        ▼
+Routine Engineering Recommendation
+        │
+        ▼
+Material Architectural Recommendation
+        │
+        ▼
+High-Impact Decision
+        │
+        ▼
+Architectural Approval Boundary
+```
+
+As impact increases, governance requirements should increase.
+
+---
+
+# Evidence Before Decision
+
+A decision should not be treated as strong merely because many agents participated.
+
+The architecture instead favors:
+
+```text
+Evidence
+    +
+Independent Verification
+    +
+Known Limitations
+    +
+Risk Analysis
+    +
+Governance
+    =
+Decision Support
+```
+
+Decision support is not the same as decision authority.
+
+---
+
+# Accountability at Scale
+
+At conceptual million-agent scale, accountability becomes more important rather than less important.
+
+```text
+Potentially Millions of Agents
+               │
+               ▼
+        Reasoning Cells
+               │
+               ▼
+       Domain Federations
+               │
+               ▼
+              ORION
+               │
+               ▼
+              HANTER
+               │
+               ▼
+      Explicit Authority Boundary
+```
+
+The architecture should always make it possible to understand:
+
+- who produced a conclusion;
+- which evidence supported it;
+- which federation reviewed it;
+- which executive layer consolidated it;
+- which authority approved the resulting decision.
+
+Scale must not erase responsibility.
+
+---
+
+# No Hidden Agent Power
+
+ORION publicly rejects hidden or ambiguous authority.
+
+Agents should not gain undeclared decision power simply because:
+
+- they are numerous;
+- they are highly capable;
+- they repeatedly participate in missions;
+- they control important information;
+- they coordinate other agents.
+
+The architectural principle is:
+
+> Capability must never silently become authority.
+
+---
+
+# Delegation Must Remain Bounded
+
+Where authority is delegated, the delegation should conceptually remain:
+
+- explicit;
+- limited in scope;
+- limited in duration where appropriate;
+- attributable;
+- reviewable;
+- revocable;
+- compatible with governance.
+
+A delegated capability does not create permanent sovereignty.
+
+---
+
+# Collective Recommendation Lifecycle
+
+```text
+Mission
+  │
+  ▼
+Specialist Analysis
+  │
+  ▼
+Evidence Verification
+  │
+  ▼
+ORION Synthesis
+  │
+  ▼
+HANTER Executive Review
+  │
+  ▼
+Recommendation
+  │
+  ▼
+Authority Evaluation
+  │
+  ▼
+Approved / Rejected / Returned for More Evidence
+```
+
+This separates reasoning quality from approval authority.
+
+---
+
+# Why Governance Improves Intelligence
+
+Governance is sometimes misunderstood as a limitation on intelligence.
+
+ORION treats governance differently.
+
+Good governance can improve collective intelligence by:
+
+- clarifying responsibilities;
+- reducing uncontrolled delegation;
+- preserving evidence;
+- forcing uncertainty to remain visible;
+- preventing false consensus from becoming authority;
+- ensuring high-impact decisions receive appropriate review.
+
+Governance therefore supports trustworthy reasoning.
+
+---
+
+# Architecture Before Autonomous Power
+
+The long-term ORION vision is not an uncontrolled autonomous collective.
+
+It is a governed collective intelligence architecture.
+
+The public principle is:
+
+```text
+Architecture
+    ↓
+Governance
+    ↓
+Reasoning
+    ↓
+Evidence
+    ↓
+Decision Support
+    ↓
+Explicit Authority
+```
+
+Not:
+
+```text
+Agent Scale
+    ↓
+Automatic Power
+```
+
+---
+
+# Public Research Direction
+
+ORION publicly explores:
+
+- AI governance;
+- collective decision accountability;
+- bounded delegation;
+- authority separation;
+- evidence-based decision support;
+- executive AI coordination;
+- multi-agent accountability;
+- large-scale reasoning governance.
+
+These remain architectural research directions.
+
+---
+
+# Public Status Boundary
+
+This document does not claim:
+
+- production governance implementation;
+- operational approval systems;
+- unrestricted agent authority;
+- autonomous production decision-making;
+- million-agent decision infrastructure;
+- externally certified governance.
+
+Architecture, implementation, testing, verification, deployment and production authorization remain separate engineering states.
+
+---
+
+# Public / Private Boundary
+
+This repository intentionally excludes:
+
+- private approval mechanisms;
+- internal authorization logic;
+- security-sensitive governance controls;
+- private delegation mechanisms;
+- operational escalation procedures;
+- internal policy engines;
+- runtime enforcement details.
+
+Only the public architectural principles are documented.
+
+---
+
+# Canonical Public Relationship
 
 ```text
 Alexander Romaskevich
@@ -4366,74 +4476,8 @@ Federated Collective Intelligence
 and Reasoning Architecture
                          │
                          ▼
-Mission-Prioritized Federations
-                         │
-                         ▼
-Dynamic Specialized AI Agent Populations
+Governed Specialized AI Agent Populations
 ```
-
-Neither resource optimization nor agent scale creates independent architectural authority.
-
-The final architectural authority remains with Alexander Romaskevich.
-
----
-
-# Million-Agent Efficiency Principle
-
-At very large conceptual scale, intelligence quality depends not only on the number of agents but on whether the right agents are working on the right problems.
-
-The public principle is:
-
-> Scale useful reasoning, not unnecessary activity.
-
-A million-agent system that allocates capacity poorly may be less useful than a smaller, well-governed federation.
-
----
-
-# Public Research Direction
-
-ORION publicly explores:
-
-- mission prioritization;
-- reasoning-resource governance;
-- adaptive specialist allocation;
-- diminishing returns;
-- bounded reasoning;
-- stopping conditions;
-- cross-federation capacity management;
-- large-scale multi-agent efficiency.
-
-These remain architectural research directions.
-
----
-
-# Public Status Boundary
-
-This document does not claim:
-
-- production-scale resource scheduling;
-- verified million-agent allocation;
-- autonomous unrestricted agent creation;
-- operational compute governance;
-- current global-scale reasoning infrastructure.
-
-Architecture, implementation, testing, verification, deployment and production authorization remain separate engineering states.
-
----
-
-# Public / Private Boundary
-
-This repository intentionally excludes:
-
-- private scheduling algorithms;
-- internal resource-allocation mechanisms;
-- operational thresholds;
-- infrastructure capacity;
-- cost models;
-- runtime control logic;
-- security-sensitive orchestration details.
-
-Only the public architectural principles are documented.
 
 ---
 
@@ -4456,4 +4500,3 @@ Author of the public ORION architecture.
 Public Engineering Documentation.
 
 All Rights Reserved.
-
