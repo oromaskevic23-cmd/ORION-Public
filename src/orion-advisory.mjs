@@ -129,8 +129,8 @@ export class OrionAdvisory {
    const arr=groups.get(rec.claim_id)||[];arr.push(clone(rec));
    groups.set(rec.claim_id,arr);
   }
-  const claims=[...groups].sort(([a],[b])=>a.localeCompare(b)).map(([id,entries])=>{
-   entries.sort((a,b)=>a.domain_id.localeCompare(b.domain_id));
+  const claims=[...groups].sort(([a],[b])=>a<b?-1:a>b?1:0).map(([id,entries])=>{
+   entries.sort((a,b)=>a.domain_id<b.domain_id?-1:a.domain_id>b.domain_id?1:0);
    const distinctDomains=new Set(entries.map(x=>x.domain_id)).size;
    const opinions=new Set(entries.map(x=>x.stance));
    const conflict=opinions.has('FOR')&&opinions.has('AGAINST');
