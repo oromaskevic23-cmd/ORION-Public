@@ -50,3 +50,21 @@ test('false accepted count denied',()=>{
  const a=engine().snapshot();a.accepted_records++;
  assert.throws(()=>verifyOrionAudit(a),/ORION_AUDIT_HEAD_MISMATCH/);
 });
+
+
+test('codepoint sorting remains verifier-compatible across multiple claim keys',()=>{
+ const o=engine(),now=Date.now();
+ for(const claim_id of ['CLAIM-A__001','CLAIM-A--001']){
+  for(let i=0;i<2;i++){
+   const claims={schema:ORION_SCHEMA,mission_id:'MISSION-ORION-EVIDENCE-001',
+    domain_id:names[i],agent_id:'NCA-'+String(i+1).padStart(12,'0'),
+    claim_id,stance:'UNSURE',evidence_sha256:[createHash('sha256').update(claim_id+i).digest('hex')],
+    summary:'Additional synthetic claim',issued_at:now-1000,expires_at:now+30000,
+    nonce:(10+i+(claim_id.includes('__')?0:3)).toString(16).padStart(32,'0')};
+   o.submit({claims,signature:sign(null,canonicalAdvisoryBytes(claims),keys[i].privateKey).toString('base64url')});
+  }
+ }
+ const report=o.report('MISSION-ORION-EVIDENCE-001');
+ assert.equal(report.claims.length,3);
+ assert.equal(verifyOrionReport(report).verified,true);
+});
