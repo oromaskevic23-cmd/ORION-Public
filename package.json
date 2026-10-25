@@ -5,10 +5,11 @@
   "type": "module",
   "description": "Public nonproduction signed federated advisory and contradiction review reference",
   "scripts": {
-    "check": "node --check src/orion-advisory.mjs && node --check test/orion-advisory.test.mjs && node --check examples/orion-demo.mjs",
+    "check": "node --check src/orion-advisory.mjs && node --check test/orion-advisory.test.mjs && node --check examples/orion-demo.mjs && node --check src/orion-evidence.mjs && node --check test/orion-evidence.test.mjs",
     "test": "node --test test/*.test.mjs",
     "demo": "node examples/orion-demo.mjs",
-    "verify": "npm run check && npm test && npm run demo"
+    "verify": "npm run check && npm test && npm run demo",
+    "qa:evidence": "node --test test/orion-evidence.test.mjs"
   },
   "engines": {
     "node": ">=22"
