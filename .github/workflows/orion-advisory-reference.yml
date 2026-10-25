@@ -7,6 +7,8 @@ on:
       - 'examples/**'
       - 'package.json'
       - '.github/workflows/orion-advisory-reference.yml'
+      - 'README.md'
+      - 'docs/ORION_ADVISORY_REFERENCE_V0.1.md'
   push:
     branches: [main]
     paths:
@@ -33,3 +35,17 @@ jobs:
           node-version: '22'
       - name: Validate syntax, adversarial unit tests and offline demo
         run: npm run verify
+  independent-evidence-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Independently checkout commit without persisted token
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4 pinned
+        with:
+          persist-credentials: false
+      - name: Use Node.js 22
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4 pinned
+        with:
+          node-version: '22'
+      - name: Check ORION report/audit tamper detection
+        run: npm run qa:evidence
