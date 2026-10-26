@@ -16,7 +16,7 @@ Alexander Romaskevich · Александр Николаевич Ромаске�
 
 **Alexander Romaskevich — RomaskevicH**  
 Founder • Owner • CEO of IMPERIAL Core  
-Architect / Final Architectural Decision Authority · Ukraine
+Architect / Final Architectural Decision Authority
 
 **HANTER — AI Command Center / Chief Systems** operates under the founder's architectural decisions. This role does not imply a single unrestricted global orchestrator.
 
