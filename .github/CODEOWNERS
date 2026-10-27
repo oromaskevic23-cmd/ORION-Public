@@ -1,0 +1,5 @@
+# Code owners — IMPERIAL Core
+# Ownership review is requested; this file does not enforce branch protection.
+* @oromaskevic23-cmd
+.github/workflows/ @oromaskevic23-cmd
+.github/CODEOWNERS @oromaskevic23-cmd

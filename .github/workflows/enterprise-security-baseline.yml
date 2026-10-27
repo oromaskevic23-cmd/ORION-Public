@@ -1,0 +1,27 @@
+name: Enterprise Security Baseline
+on:
+  push:
+    branches: [feat/enterprise-governance-20261027]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  security-baseline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Governance check
+        run: |
+          test -s .github/CODEOWNERS
+          test -s ENTERPRISE_ENGINEERING_GATE_20261027.md || test -s docs/ENTERPRISE_ENGINEERING_GATE_20261027.md
+      - name: High-confidence secret patterns
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git grep -n -I -E -- '-----BEGIN (RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----|ghp_[A-Za-z0-9]{36}|github_pat_[A-Za-z0-9_]{60,}' -- . ':!*.lock' ':!*.md'; then
+            echo 'Potential secret detected'; exit 1
+          fi
+          echo 'No matched patterns; not full secret scanning'
