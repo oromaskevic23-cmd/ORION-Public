@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { validateFederationEnvelope } from '../src/federation-envelope.mjs';
+const valid=()=>({schema_version:'orion.federation.v1',task_id:'task1',request_id:'req1',source_agent_id:'nca1',orchestrator_id:'astra',operation:'COLLECTIVE_PROPOSAL',payload_digest:'sha256:'+'b'.repeat(64),created_at:'2026-10-27T12:00:00Z',execution_authorized:false});
+test('accepts bounded read-only proposal envelope',()=>{const r=validateFederationEnvelope(valid());assert.equal(r.execution_authorized,false);assert.equal(r.signature_verified,false)});
+test('rejects production execution authorization',()=>assert.throws(()=>validateFederationEnvelope({...valid(),execution_authorized:true}),/forbidden/));
+test('rejects invalid payload digest',()=>assert.throws(()=>validateFederationEnvelope({...valid(),payload_digest:'hello'}),/digest/));
+test('rejects unknown operation',()=>assert.throws(()=>validateFederationEnvelope({...valid(),operation:'EXECUTE_PAYMENT'}),/unsupported/));
+test('rejects unknown schema',()=>assert.throws(()=>validateFederationEnvelope({...valid(),schema_version:'v2'}),/schema/));
+test('rejects invalid identity',()=>assert.throws(()=>validateFederationEnvelope({...valid(),source_agent_id:'../evil'}),/source_agent_id/));
