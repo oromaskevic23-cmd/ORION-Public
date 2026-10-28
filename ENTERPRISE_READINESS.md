@@ -24,7 +24,7 @@
 | Operational readiness | Observed E5 runtime and E6 production evidence | NOT CLAIMED |
 | Publication | No leaked secrets, no unsubstantiated patent or equity claims | REVIEW REQUIRED |
 
-**Universal NCA:** The IMPERIAL Core vision is a one-human-founder, LLM-assisted **digital corporation of universal NCA**, intended for a possible **1 to 1,000,000,000 identities**, not a billion executing workers. Professional roles are dynamic but subject to per-mission authorization. **HANTER** coordinates without a global privileged executor; **VELEON** is the canonical intelligence component.
+**Universal NCA:** The IMPERIAL Core vision is a one-human-founder, LLM-assisted **digital corporation of universal NCA**, intended for a possible **1 to 1,000,000,000 identities**, not a billion executing workers. Professional roles are dynamic but subject to per-mission authorization. **HANTER** coordinates without a global privileged executor; **VELION** is the canonical intelligence component.
 
 **Human governance:** Identity ≠ Authority; Capability ≠ Approval; Zero Trust; Deny by Default; Fail Closed. Security agents act only on owned/authorized systems. Company shares and tokens are different legal interests.
 

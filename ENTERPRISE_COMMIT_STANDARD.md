@@ -11,7 +11,7 @@
 2. **Source provenance:** preserve historical authorship, licenses, upstream attribution, third-party models and human/LLM contributions; do not claim authorship of code not developed by the project.
 3. **Verification:** record actually executed tests and relevant CI run URLs or explicitly mark NOT RUN / BLOCKED; never fabricate passing evidence.
 4. **Security:** guard secrets, wallet credentials, private policies, dependencies and tool privileges; require approval for production, payments, domain crossings and security-sensitive tasks.
-5. **Architecture:** preserve HANTER command coordination, VELEON canonical name, federated orchestration without a single global executor, and Universal NCA identity ≠ authority.
+5. **Architecture:** preserve HANTER command coordination, VELION canonical name, federated orchestration without a single global executor, and Universal NCA identity ≠ authority.
 6. **Release gate:** E0 design, E1 spec, E2 code, E3 unit/static tests, E4 integration, E5 verified runtime, E6 verified production. Claims cannot exceed recorded evidence.
 7. **Integrity:** retain historical commits. No force push or rewriting attribution; changes should be traceable, scoped, independently reviewable and reversible.
 
