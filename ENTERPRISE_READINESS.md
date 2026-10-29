@@ -9,7 +9,7 @@
 
 - **Observed root:** README-only architecture narrative.
 - **Specific governance/security caution:** Collective intelligence research must use explicit integration contracts and no privileged global access.
-- **Not proven in this review:** deployment, tests, security audit, actual billion-agent capacity, revenue, legal corporate formation or issued shares.
+- **Not proven in this review:** deployment, tests, security audit, actual billion-agent capacity, revenue, legal corporate formation.
 
 ## Enterprise readiness contract
 
@@ -22,11 +22,11 @@
 | Isolation/recovery | Authorized domains, quotas, rollback and kill switch | UNVERIFIED |
 | Auditability | Traceable mission, permits, policy versions and ProofGraph | SPECIFICATION |
 | Operational readiness | Observed E5 runtime and E6 production evidence | NOT CLAIMED |
-| Publication | No leaked secrets, no unsubstantiated patent or equity claims | REVIEW REQUIRED |
+| Publication | No leaked secrets, no unsubstantiated legal claims | REVIEW REQUIRED |
 
 **Universal NCA:** The IMPERIAL Core vision is a one-human-founder, LLM-assisted **digital corporation of universal NCA**, intended for a possible **1 to 1,000,000,000 identities**, not a billion executing workers. Professional roles are dynamic but subject to per-mission authorization. **HANTER** coordinates without a global privileged executor; **VELION** is the canonical intelligence component.
 
-**Human governance:** Identity ≠ Authority; Capability ≠ Approval; Zero Trust; Deny by Default; Fail Closed. Security agents act only on owned/authorized systems. Company shares and tokens are different legal interests.
+**Human governance:** Identity ≠ Authority; Capability ≠ Approval; Zero Trust; Deny by Default; Fail Closed. Security agents act only on owned/authorized systems. Technical architecture does not establish legal ownership.
 
 ## Evidence-gated implementation next steps
 
