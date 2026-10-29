@@ -1,0 +1,40 @@
+name: English documentation
+on:
+  push:
+    branches: [main]
+    paths: ['**.md', '**.txt', '**.yml', '**.yaml']
+  pull_request:
+    paths: ['**.md', '**.txt', '**.yml', '**.yaml']
+permissions:
+  contents: read
+concurrency:
+  group: english-docs-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  language:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Check repository prose uses the Latin alphabet
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import subprocess, unicodedata
+          files = subprocess.check_output(['git', 'ls-files', '-z']).decode().split('\0')
+          failures = []
+          checked = 0
+          for filename in files:
+              path = Path(filename)
+              if path.suffix.lower() not in {'.md', '.txt', '.yml', '.yaml'}:
+                  continue
+              checked += 1
+              for number, line in enumerate(path.read_text(encoding='utf-8').splitlines(), 1):
+                  if any(unicodedata.category(c).startswith('L') and 'LATIN' not in unicodedata.name(c, '') for c in line):
+                      failures.append(f'{filename}:{number}')
+          if failures:
+              raise SystemExit('Non-Latin prose requires English translation or a reviewed attribution exception:\n' + '\n'.join(failures[:100]))
+          print(f'PASS: {checked} documentation/configuration files use Latin-script prose. Human review still checks English wording; this is not language detection or Enterprise certification.')
+          PY
