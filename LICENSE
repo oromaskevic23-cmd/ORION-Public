@@ -1,0 +1,65 @@
+IMPERIAL CORE — ORIGINAL SOURCE PROPRIETARY LICENSE v1.0
+GitHub repository: oromaskevic23-cmd/ORION-Public
+Copyright (c) 2026 Alexander Nikolaevich Romaskevich (RomaskevicH),
+solely to the extent of copyrightable original material and rights
+actually owned by or validly licensed to the stated rights holder.
+
+1. LICENSE SCOPE AND DEFAULT RESERVATION
+This source-available notice applies to original IMPERIAL Core material
+in this repository only where the licensor possesses sufficient rights.
+All rights not expressly granted are reserved. Public availability is
+not an MIT, Apache-2.0, GPL or other open-source grant. This license
+does not affect other IMPERIAL Core repositories.
+
+2. LIMITED EVALUATION
+For licensor-controlled original works, a non-exclusive permission to
+inspect public GitHub material for private evaluation is granted,
+subject to GitHub Terms of Service and applicable law. No separate
+permission is granted for commercial production, public redistribution,
+sublicensing, resale, proprietary rebranding, model-weight reuse,
+training datasets, customer delivery or third-party deployment.
+GitHub platform viewing/forking permissions and statutory rights remain.
+
+3. EXISTING THIRD-PARTY RIGHTS PREVAIL
+Upstream software, model weights, dependencies, designs, fonts, logos,
+images, contracts and individual external contributions retain their
+respective rights and existing license terms. Existing copyright,
+NOTICE, LICENSE, Git commit authorship, contributor agreements and
+mandatory laws take precedence for the materials they govern. Nothing
+here transfers, overrides or retracts previously valid open-source
+rights, or claims all code was personally written by the founder.
+
+4. SEPARATELY AGREED RIGHTS AND CUSTOMER LICENSES
+Commercial software use requires a separate actually authorized
+license/EULA or service contract specifying the real rights holder,
+verified origin, artifact, terms, price and legal conditions. A digital
+Ed25519 license certificate can authenticate a bounded entitlement
+only when signed by an independently trusted key; a signature is
+neither a license to unrelated intellectual property nor proof of
+payment, contract execution, Owner approval or legal chain of title.
+
+5. PROJECT SAFETY AND CRYPTO BOUNDARY
+Public architecture does not authorize NCA worker execution, access
+to private runtime domains, secrets, payments or owner impersonation.
+Respect Zero Trust, Guardian Core, Approval Gateway, AI Passport,
+Audit Ledger, HANTER/federated orchestrators and the separate CRYPTO
+IMPERIAL Ecosystem Boundary. Source publication is not an invitation
+to buy financial tokens or a promise of exchange listing or returns.
+
+
+
+6. DISCLAIMER
+Original material is provided AS IS, WITHOUT WARRANTIES TO THE
+MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW. This statement does not
+supersede mandatory consumer/contract provisions or valid upstream
+licenses.
+
+Project founder / architecture authority: Alexander Nikolaevich Romaskevich
+GitHub public signature: RomaskevicH
+Original code and third-party contributions: see AUTHORS.md and Git history.
+Canonical enterprise licensing and release-gate policy:
+https://github.com/oromaskevic23-cmd/oromaskevic23-cmd/blob/main/docs/IMPERIAL_ENTERPRISE_LICENSING_STANDARD.md
+
+This is a custom proprietary source license (not OSI approved).
+It grants no trademark registration, corporate status, market
+certification, ownership of third-party code or production permit.
