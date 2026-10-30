@@ -1,0 +1,76 @@
+# One-time banner import, not a recurring monitor or background agent.
+# This workflow only runs on its own initial addition/change to main or manual dispatch.
+name: Install official ORION banner (checksum-gated)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/install-orion-official-banner.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: orion-official-banner-install
+  cancel-in-progress: false
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out main
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: true
+
+      - name: Fetch and authenticate original approved image
+        env:
+          ASSET_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3IVOKXTwsRFSR1qLtI96nF4edlB/78d8670b-45d2-41ba-b3a5-3373ae056818.jpg
+          EXPECTED_SHA256: a8b437cbd84bd60ca54e5d694948e8fe25b32455e3baf596a4ae21dd70d8c0ec
+        run: |
+          set -euo pipefail
+          mkdir -p assets
+          curl --proto '=https' --tlsv1.2 --fail --location --retry 3 \
+               --connect-timeout 10 --max-time 90 \
+               --output assets/orion-collective-intelligence-official.jpg \
+               "$ASSET_URL"
+          printf '%s  %s\n' "$EXPECTED_SHA256" assets/orion-collective-intelligence-official.jpg | sha256sum --check
+          python3 - <<'PY'
+          from pathlib import Path
+          f=Path('assets/orion-collective-intelligence-official.jpg')
+          data=f.read_bytes()
+          assert data[:3] == b'\xff\xd8\xff', "JPEG header mismatch"
+          assert 100_000 < len(data) < 5_000_000, "Unexpected image length"
+          PY
+
+      - name: Install official artwork in README while preserving licenses
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          readme = Path("README.md")
+          old = readme.read_text(encoding="utf-8")
+          banner = """<p align="center">
+            <img src="assets/orion-collective-intelligence-official.jpg"
+                 alt="ORION — IMPERIAL Core collective intelligence and the approved decorative cryptographic license seal with RomaskevicH signature"
+                 width="100%" />
+          </p>
+
+          > Official ORION concept artwork. The pictured seal is a **visual brand element**, not an independently signed license, legal certification, or executable permission token. See the root LICENSE for actual terms.
+
+          """
+          if "assets/orion-collective-intelligence-official.jpg" not in old:
+              readme.write_text(banner + old, encoding="utf-8")
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/orion-collective-intelligence-official.jpg README.md
+          if git diff --cached --quiet; then
+            echo "Official ORION banner already installed; no changes."
+          else
+            git commit -m "assets(orion): install checksum-verified official collective intelligence banner"
+            git push origin HEAD:main
+          fi
