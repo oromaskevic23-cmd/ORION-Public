@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="assets/orion-collective-intelligence-official.jpg"
+       alt="ORION — IMPERIAL Core collective intelligence and the approved decorative cryptographic license seal with RomaskevicH signature"
+       width="100%" />
+</p>
+
+> Official ORION concept artwork. The pictured seal is a **visual brand element**, not an independently signed license, legal certification, or executable permission token. See the root LICENSE for actual terms.
+
 # ORION
 
 **Project creator / founding architect:** Alexander Nikolaevich Romaskevich (RomaskevicH). [Authorship](AUTHORS.md) · [License inventory](governance/LICENSE_INVENTORY.md).
