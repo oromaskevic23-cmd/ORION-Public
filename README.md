@@ -1,5 +1,7 @@
 # ORION
 
+**Project founder and founding architect:** Alexander Nikolaevich Romaskevich (RomaskevicH). [Authorship and contribution provenance](AUTHORS.md).
+
 Collective-intelligence and multi-agent reasoning research within IMPERIAL Core.
 
 **Status: SPECIFIED — public architecture and research documentation.**  
