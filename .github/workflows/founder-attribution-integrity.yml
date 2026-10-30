@@ -1,0 +1,26 @@
+name: Founder attribution integrity
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  founder-attribution-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check founder attribution and immutable provenance requirements
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f AUTHORS.md
+          test -f README.md
+          grep -Fq 'Alexander Nikolaevich Romaskevich' AUTHORS.md
+          grep -Fq 'RomaskevicH' AUTHORS.md
+          grep -Fq 'Git commit authors' AUTHORS.md
+          grep -Fq 'third-party copyright notices' AUTHORS.md
+          grep -Fq 'Alexander Nikolaevich Romaskevich' README.md
+          test -f .github/workflows/founder-attribution-integrity.yml
