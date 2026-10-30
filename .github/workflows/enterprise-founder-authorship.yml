@@ -1,0 +1,12 @@
+name: IMPERIAL Founder Authorship and License Guard
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  attribution:
+    uses: oromaskevic23-cmd/oromaskevic23-cmd/.github/workflows/enterprise-founder-authorship.yml@d0dab8e80258a659053dd1872e5e738d687a1d70
+    permissions:
+      contents: read

@@ -1,5 +1,8 @@
 # ORION
 
+**Project creator / founding architect:** Alexander Nikolaevich Romaskevich (RomaskevicH). [Authorship](AUTHORS.md) · [License inventory](governance/LICENSE_INVENTORY.md).
+
+
 Collective-intelligence and multi-agent reasoning research within IMPERIAL Core.
 
 **Status: SPECIFIED — public architecture and research documentation.**  
