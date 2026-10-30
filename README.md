@@ -8,6 +8,8 @@
 
 # ORION
 
+**Navigation:** [Documentation & Links](docs/DOCUMENTATION_AND_LINKS.md) · [Public Portfolio](#public-portfolio-and-status-definitions) · [Choose Language](docs/LANGUAGE_ACCESS.md)
+
 **Project creator / founding architect:** Alexander Nikolaevich Romaskevich (RomaskevicH). [Authorship](AUTHORS.md) · [License inventory](governance/LICENSE_INVENTORY.md).
 
 
@@ -41,11 +43,22 @@ Preserve the Federated Multi-Orchestrator Architecture, multiple organizational 
 
 ## Documentation and continuity
 
+The full set of original links is preserved in the dedicated **[Documentation and Links directory](docs/DOCUMENTATION_AND_LINKS.md)**.
+
 - [Current ecosystem architecture](https://github.com/oromaskevic23-cmd/Capital--Core-Public/blob/main/ARCHITECTURE.md).
 - [Founder identity — EN / UK / RU](https://github.com/oromaskevic23-cmd/Capital--Core-Public/blob/main/docs/FOUNDER_IDENTITY.md).
-- [Public portfolio and status definitions](https://github.com/oromaskevic23-cmd/Capital--Core-Public/blob/main/docs/PORTFOLIO.md).
 - [Verified milestones](https://github.com/oromaskevic23-cmd/Capital--Core-Public/blob/main/docs/EVIDENCE.md) and [engineering roadmap](https://github.com/oromaskevic23-cmd/Capital--Core-Public/blob/main/ROADMAP.md).
 - [Historical public specification notes](https://github.com/oromaskevic23-cmd/ORION-Public/blob/8b4834eb71aa69ae733d743b9aaf24a11c70598f/README.md) — retained in Git history; earlier role wording is superseded and design narratives do not establish runtime operation.
+
+## Public portfolio and status definitions
+
+**[Open the IMPERIAL Core public portfolio and status definitions](https://github.com/oromaskevic23-cmd/Capital--Core-Public/blob/main/docs/PORTFOLIO.md)** — this reference has its own section and remains directly accessible. Portfolio status must be supported by dated evidence.
+
+## Language selection — separate from GitHub documentation
+
+**[Choose your website language](docs/LANGUAGE_ACCESS.md)** · [Open the official multilingual IMPERIAL Core website](https://oromaskevic23-cmd.github.io/Capital--Core-Public/reference/).
+
+All ORION GitHub engineering documentation remains **English-only**. Website localization is separate from the English technical source and the repository LICENSE.
 
 ## Collaboration, security and attribution
 
