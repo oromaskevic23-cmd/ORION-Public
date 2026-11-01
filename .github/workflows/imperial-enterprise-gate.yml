@@ -11,6 +11,6 @@ concurrency:
   cancel-in-progress: true
 jobs:
   enterprise-quality:
-    uses: oromaskevic23-cmd/oromaskevic23-cmd/.github/workflows/imperial-enterprise-reusable.yml@7575e761f7b48eddf97ffbe8c07dd86fc2879cef
+    uses: oromaskevic23-cmd/oromaskevic23-cmd/.github/workflows/imperial-enterprise-reusable.yml@4f081a8915667b7f650cf1021633b1923dc9d0a7
     permissions:
       contents: read
