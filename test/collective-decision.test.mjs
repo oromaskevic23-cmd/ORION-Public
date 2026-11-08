@@ -9,6 +9,24 @@ test('majority provisional and never authorizes execution',()=>{
 });
 test('tie returns conflict',()=>assert.equal(aggregateCollectiveDecision({proposals:[p('a','yes'),p('b','no')]}).status,'CONFLICT'));
 test('plurality without majority returns no consensus',()=>assert.equal(aggregateCollectiveDecision({proposals:[p('a','a'),p('b','b'),p('c','c')]}).status,'NO_CONSENSUS'));
+test('four unique one-vote choices produce no consensus, not a conflict',()=>{
+ const x=aggregateCollectiveDecision({proposals:[p('a','red'),p('b','green'),p('c','blue'),p('d','yellow')]});
+ assert.equal(x.status,'NO_CONSENSUS');
+ assert.equal(x.choice,null);
+ assert.equal(x.execution_authorized,false);
+});
+test('two tied multi-vote blocs remain a conflict even with a third choice',()=>{
+ const x=aggregateCollectiveDecision({proposals:[p('a','yes'),p('b','yes'),p('c','no'),p('d','no'),p('e','hold')]});
+ assert.equal(x.status,'CONFLICT');
+ assert.equal(x.choice,null);
+ assert.equal(x.execution_authorized,false);
+});
+test('strongest plurality without majority remains no consensus',()=>{
+ const x=aggregateCollectiveDecision({proposals:[p('a','yes'),p('b','yes'),p('c','no'),p('d','hold')]});
+ assert.equal(x.status,'NO_CONSENSUS');
+ assert.equal(x.choice,null);
+ assert.equal(x.execution_authorized,false);
+});
 test('duplicate identity rejected',()=>assert.throws(()=>aggregateCollectiveDecision({proposals:[p('a','yes'),p('a','yes')]}),/duplicate/));
 test('missing evidence rejected',()=>assert.throws(()=>aggregateCollectiveDecision({proposals:[{agent_id:'a',choice:'yes',evidence:[]},p('b','yes')]}),/evidence/));
 test('too many proposals rejected',()=>assert.throws(()=>aggregateCollectiveDecision({proposals:Array.from({length:101},(_,i)=>p('a'+i,'yes'))}),/100/));
