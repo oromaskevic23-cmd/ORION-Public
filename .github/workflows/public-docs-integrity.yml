@@ -1,0 +1,67 @@
+name: Public Docs Integrity
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # pinned v4
+        with:
+          persist-credentials: false
+      - name: Offline README security and provenance checks
+        shell: bash
+        env:
+          EXPECTED_TITLE: "# ORION"
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from urllib.parse import urlparse, unquote
+          import os, re, subprocess, sys
+          title = os.environ["EXPECTED_TITLE"]
+          readme = Path("README.md")
+          errors = []
+          if not readme.is_file():
+              errors.append("README.md missing")
+          else:
+              text = readme.read_text(encoding="utf-8")
+              if not text.startswith(title + "\n"):
+                  errors.append("README title changed")
+              if "RomaskevicH" not in text:
+                  errors.append("Founder attribution absent")
+              if not ("SPECIFIED" in text or "TESTED" in text):
+                  errors.append("No scoped maturity status")
+              if not ("IMPERIAL-Core-Public" in text):
+                  errors.append("Public evidence hub not linked")
+              if not text.endswith("\n") or "\r" in text:
+                  errors.append("README newline normalization")
+              for link in re.findall(r"\]\(([^)\s]+)\)", text):
+                  url = urlparse(link)
+                  if url.scheme:
+                      if url.scheme != "https" or not url.netloc:
+                          errors.append("Unsafe external link: " + link)
+                  elif not link.startswith("#"):
+                      path = (Path.cwd() / unquote(url.path)).resolve()
+                      if not path.is_relative_to(Path.cwd()) or not path.exists():
+                          errors.append("Invalid relative link: " + link)
+              patterns = (r"ghp_[A-Za-z0-9]{36}", r"github_pat_[A-Za-z0-9_]{20,}", r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----")
+              if any(re.search(p, text) for p in patterns):
+                  errors.append("Possible credential in README")
+          tracked = subprocess.check_output(["git", "ls-files", "-z"]).decode().split("\0")
+          for filename in filter(None, tracked):
+              p = Path(filename)
+              if p.name in {".env", ".env.production", ".env.local", "id_rsa", "id_ed25519"} or p.suffix.lower() in {".pem", ".p12", ".pfx"}:
+                  errors.append("Forbidden secret-bearing filename: " + filename)
+          if not Path("SECURITY.md").is_file():
+              errors.append("Responsible disclosure policy absent")
+          if errors:
+              for issue in errors: print("FAIL:", issue)
+              sys.exit(1)
+          print("PASS: README attribution, maturity, links, credential patterns, tracked secret filenames, disclosure")
+          print("LIMIT: offline docs audit; no live deployment, historical secret scan or external URL health asserted")
+          PY
