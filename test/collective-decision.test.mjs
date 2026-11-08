@@ -9,6 +9,12 @@ test('majority provisional and never authorizes execution',()=>{
 });
 test('tie returns conflict',()=>assert.equal(aggregateCollectiveDecision({proposals:[p('a','yes'),p('b','no')]}).status,'CONFLICT'));
 test('plurality without majority returns no consensus',()=>assert.equal(aggregateCollectiveDecision({proposals:[p('a','a'),p('b','b'),p('c','c')]}).status,'NO_CONSENSUS'));
+test('two tied multi-vote blocs are a conflict without a third option',()=>{
+ const x=aggregateCollectiveDecision({proposals:[p('a','yes'),p('b','yes'),p('c','no'),p('d','no')]});
+ assert.equal(x.status,'CONFLICT');
+ assert.equal(x.choice,null);
+ assert.equal(x.execution_authorized,false);
+});
 test('four unique one-vote choices produce no consensus, not a conflict',()=>{
  const x=aggregateCollectiveDecision({proposals:[p('a','red'),p('b','green'),p('c','blue'),p('d','yellow')]});
  assert.equal(x.status,'NO_CONSENSUS');
