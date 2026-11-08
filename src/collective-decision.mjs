@@ -17,9 +17,13 @@ export function aggregateCollectiveDecision(input) {
   const tied = ranked.length > 1 && ranked[0][1] === ranked[1][1];
   const votes = ranked[0][1];
   const quorum = votes > input.proposals.length / 2;
+  // With three or more different choices, single-vote dispersion is not a
+  // contested plurality: no position has formed. Two-option deadlock and
+  // competing multi-vote blocs are actual conflicts.
+  const conflict = tied && (ranked.length === 2 || votes > 1);
   return Object.freeze({
-    status: tied ? 'CONFLICT' : quorum ? 'PROVISIONAL_CONSENSUS' : 'NO_CONSENSUS',
-    choice: tied || !quorum ? null : ranked[0][0],
+    status: quorum ? 'PROVISIONAL_CONSENSUS' : conflict ? 'CONFLICT' : 'NO_CONSENSUS',
+    choice: quorum ? ranked[0][0] : null,
     votes,
     total: input.proposals.length,
     tally: Object.fromEntries(ranked),
