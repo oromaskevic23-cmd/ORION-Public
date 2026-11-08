@@ -1,0 +1,10 @@
+{
+  "name": "imperial-orion-collective-reference",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check src/collective-decision.mjs && node --check src/federation-envelope.mjs && node --check src/collective-task.mjs && node --check test/collective-decision.test.mjs && node --check test/federation-envelope.test.mjs && node --check test/collective-task.test.mjs && node --check src/verified-collective-task.mjs && node --check test/verified-collective-task.test.mjs",
+    "verify": "npm run check && npm test"
+  }
+}
