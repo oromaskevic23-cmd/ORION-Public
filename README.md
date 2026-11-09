@@ -10,6 +10,8 @@
 
 **Navigation:** [Documentation & Links](docs/DOCUMENTATION_AND_LINKS.md) · [Public Portfolio](#public-portfolio-and-status-definitions)
 
+<img src="https://raw.githubusercontent.com/oromaskevic23-cmd/oromaskevic23-cmd/main/assets/alexander-romaskevich-portrait-20261110.jpg" alt="Alexander Nikolaevich Romaskevich, Founder, Owner and CEO of IMPERIAL Core" width="160" />
+
 **Project creator / founding architect:** Alexander Nikolaevich Romaskevich (RomaskevicH). [Authorship](AUTHORS.md) · [License inventory](governance/LICENSE_INVENTORY.md).
 
 
@@ -31,7 +33,7 @@ Alexander Romaskevich · RomaskevicH — founder-declared Architect, Owner and C
 Founder • Owner • CEO of IMPERIAL Core  
 Architect / Final Architectural Decision Authority
 
-**HANTER — AI Command Center / Chief Systems** operates under the founder's architectural decisions. This role does not imply a single unrestricted global orchestrator.
+**HANTER — AI Command Center** operates under the founder's architectural decisions. This role does not imply a single unrestricted global orchestrator.
 
 ## Public technical evidence
 
